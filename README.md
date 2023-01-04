@@ -1,8 +1,8 @@
 # multerDemo
 ## How to use
 
---Clone the project 
---install npm
+- Clone the project 
+- install npm
 
 //import packages
 ```const express = require('express');
