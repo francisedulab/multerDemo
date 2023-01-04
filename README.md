@@ -4,7 +4,8 @@
 - Clone the project 
 - install npm
 
-```import packages
+```
+// import packages
 const express = require('express');
     const multer  = require('multer');
 
@@ -29,4 +30,5 @@ app.post('/uploadDemo', upload.array('manyFiles'), function (req, res, next) {
     res.send('File uploaded please check /public/uploads folder')
 })
 
-app.listen(3000);```
+app.listen(3000);
+```
