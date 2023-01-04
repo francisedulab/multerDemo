@@ -2,14 +2,13 @@
 ## How to use
 
 -Clone the project 
--install npm,express and multer package
+-install npm
 
 ##import packages
 ```const express = require('express');
 const multer  = require('multer');```
 
 ##
-
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
       cb(null, './public/uploads')
@@ -22,7 +21,7 @@ const storage = multer.diskStorage({
   
   const upload = multer({ storage: storage })
 
-
+##Create express app
 const app = express()
 
 app.post('/uploadDemo', upload.array('manyFiles'), function (req, res, next) {
