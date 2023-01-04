@@ -4,9 +4,9 @@
 - Clone the project 
 - install npm
 
-// import packages
+import packages
 ```const express = require('express');
-const multer  = require('multer');
+    const multer  = require('multer');
 
 //Set Storage
 const storage = multer.diskStorage({
