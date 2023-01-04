@@ -3,6 +3,7 @@
 
 - Clone the project 
 - install npm
+- Create a folder uploads
 
 ```
 // import packages
